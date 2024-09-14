@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark grey for text */
+}
+
+/* Container for the entire form and resume */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Section Headings */
+h2 {
+    font-size: 24px;
+    color: #555; /* Medium grey for titles */
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #444; /* Darker grey for labels */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light grey borders */
+    background-color: #f9f9f9; /* Very light grey input background */
+    font-size: 14px;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #6c757d; /* Muted grey button */
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+}
+
+/* Resume Section */
+#resume-section {
+    margin-top: 40px;
+}
+
+#resume-section.hidden {
+    display: none;
+}
+
+/* Resume Content */
+#resume-content {
+    background-color: #fafafa; /* Very light grey background */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0; /* Light grey border */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#resume-content h1 {
+    font-size: 28px;
+    color: #333; /* Dark grey for headings */
+    margin-bottom: 5px;
+}
+
+#resume-content h3 {
+    font-size: 20px;
+    color: #555; /* Medium grey for section titles */
+    margin-top: 15px;
+}
+
+#resume-content p {
+    color: #666; /* Light grey for regular text */
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#resume-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#resume-content li {
+    background-color: #f1f1f1; /* Light grey background for skill items */
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Shadow and spacing */
+input, textarea, button {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
